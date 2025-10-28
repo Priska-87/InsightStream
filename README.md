@@ -120,7 +120,9 @@ Dashboard conectado al CSV final con las siguientes vistas:
 - **Tendencias:** Ventas mensuales y por categoría  
 - **Top Productos y Facturación**  
 - **Tabla dinámica:** Categoría | Producto | Total | Cantidad  
-- **Filtros interactivos:** Fecha | Categoría | Tipo de valor  
+- **Filtros interactivos:** Fecha | Categoría | Tipo de valor
+
+[Link del dashboard interactivo en Power BI] (https://bit.ly/4nLLeel)
 
 ---
 
@@ -182,7 +184,7 @@ DB_ECOMMERCE_MYSQL=********
 
 Proyecto desarrollado por **Priscila Kwiatkowski**  
 📧 [priscilakwiatkowski44@gmail.com](mailto:priscilakwiatkowski44@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/priscilakwiatkowski)  
+💼 [LinkedIn](https://www.linkedin.com/in/priscila-kwiatkowski/)  
 🐙 [GitHub](https://github.com/Priska-87)
 
 ---
