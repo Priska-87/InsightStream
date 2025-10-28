@@ -13,13 +13,15 @@ El flujo completo garantiza credenciales seguras y un proceso automatizado, idea
 
 ## 🧩 Pipeline Visual
 
+## 🧩 Pipeline Visual
+
 ```mermaid
 graph TD
-    A[CSV: ventas_ecommerce.csv] --> B[Python - Lectura con Pandas e Inserción en MySQL (ventas_staging)]
+    A[CSV: ventas_ecommerce.csv] --> B[Python: Lectura con Pandas e inserción en MySQL - tabla ventas_staging]
     B --> C[MySQL - ventas_staging: Datos limpios y validados]
-    C --> D[Transformación - Normalización y cálculo de métricas]
-    D --> E[OneDrive - Exportación CSV (ventas_transformadas.csv)]
-    E --> F[Power BI - Dashboard conectado al CSV de OneDrive]
+    C --> D[Transformación: Normalización y cálculo de métricas]
+    D --> E[OneDrive: Exportación CSV - ventas_transformadas.csv]
+    E --> F[Power BI: Dashboard conectado al CSV de OneDrive]
 ```
 
 ## 🎯 Objetivos del Proyecto  
