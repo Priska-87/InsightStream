@@ -121,8 +121,8 @@ Dashboard conectado al CSV final con las siguientes vistas:
 - **Top Productos y Facturación**  
 - **Tabla dinámica:** Categoría | Producto | Total | Cantidad  
 - **Filtros interactivos:** Fecha | Categoría | Tipo de valor
-
-[Link del dashboard interactivo en Power BI] (https://bit.ly/4nLLeel)
+  
+[Dashboard interactivo](https://bit.ly/4nLLeel)  
 
 ---
 
