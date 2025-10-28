@@ -13,8 +13,6 @@ El flujo completo garantiza credenciales seguras y un proceso automatizado, idea
 
 ## 🧩 Pipeline Visual
 
-## 🧩 Pipeline Visual
-
 ```mermaid
 graph TD
     A[CSV: ventas_ecommerce.csv] --> B[Python: Lectura con Pandas e inserción en MySQL - tabla ventas_staging]
