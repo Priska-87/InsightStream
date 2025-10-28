@@ -73,14 +73,18 @@ InsightStream/
 ## ⚙️ ETL Paso a Paso  
 
 ### 🐍 1. Extract & Load  
-- Lectura del archivo `ventas_ecommerce.csv` con **Pandas**.  
-- Uso de **variables de entorno (.env)** para credenciales seguras:  
+- Lectura del archivo `ventas_ecommerce.csv` con **Pandas**.
+  
+## 🔐 Gestión Segura de Credenciales  
+Todas las credenciales se almacenan en el archivo `.env`.  
+No se exponen en el código ni en el repositorio.  
 
+Ejemplo:
 ```bash
-DB_HOST_MYSQL=localhost
-DB_USER=admin01
+DB_HOST_MYSQL=******
+DB_USER=******
 DATASOURCE_PASSWORD=********
-DB_ECOMMERCE_MYSQL=ventas_ecommerce_db
+DB_ECOMMERCE_MYSQL=********
 ```
 
 - Inserción en `ventas_staging` con control de duplicados mediante `ON DUPLICATE KEY UPDATE`.
@@ -132,21 +136,6 @@ Dashboard conectado al CSV final con las siguientes vistas:
 |--------------|-----------|------------|-----------|------------------|---------|------------|------------------|------------------|
 | C001 | Smartphone X | Tecnología | 1 | 226,934.00 | 226,934.00 | ✅ | 226,934.00 | $ 226.934,00 |
 | C002 | Remera Oversize | Ropa | 1 | 463,728.00 | 463,728.00 | ✅ | 463,728.00 | $ 463.728,00 |
-
----
-
-## 🔐 Gestión Segura de Credenciales  
-
-Todas las credenciales se almacenan en el archivo `.env`.  
-No se exponen en el código ni en el repositorio.  
-
-Ejemplo:
-```bash
-DB_HOST_MYSQL=******
-DB_USER=******
-DATASOURCE_PASSWORD=********
-DB_ECOMMERCE_MYSQL=********
-```
 
 ---
 
